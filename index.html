@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주일설교 인포그래픽 - 하나님에 대해 산 사람</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Noto Sans KR -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            background-color: #0b1329;
+        }
+        .glow-blue {
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.25);
+        }
+        .glow-cyan {
+            box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);
+        }
+        .transition-all-300 {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="text-slate-100 min-h-screen flex flex-col justify-between selection:bg-blue-500 selection:text-white">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800/80 bg-slate-950/60 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="bg-gradient-to-tr from-blue-600 to-cyan-400 p-2.5 rounded-xl shadow-lg shadow-blue-500/20">
+                    <i data-lucide="cross" class="w-6 h-6 text-white"></i>
+                </div>
+                <div>
+                    <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Sunday Sermon Infographic</span>
+                    <h1 class="text-lg font-extrabold tracking-tight text-white sm:text-xl">하나님에 대해 산 사람</h1>
+                </div>
+            </div>
+            <div class="flex items-center gap-3 text-sm">
+                <span class="bg-slate-900 border border-slate-800 text-slate-400 px-3 py-1.5 rounded-full font-medium flex items-center gap-1.5">
+                    <i data-lucide="calendar" class="w-4 h-4 text-blue-400"></i> 2026. 05. 31
+                </span>
+                <span class="bg-blue-500/10 border border-blue-500/20 text-blue-400 px-3 py-1.5 rounded-full font-medium flex items-center gap-1.5">
+                    <i data-lucide="book-open" class="w-4 h-4"></i> 로마서 6:12–14
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-6xl mx-auto px-4 py-8 flex-grow w-full space-y-12">
+        
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800/60 p-6 md:p-10 shadow-2xl">
+            <!-- Background effects -->
+            <div class="absolute top-0 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl -z-10"></div>
+            <div class="absolute bottom-0 left-10 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl -z-10"></div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-4 text-center lg:text-left">
+                    <span class="px-3 py-1 text-xs font-bold bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">로마서 강해 시리즈</span>
+                    <h2 class="text-3xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-blue-400 leading-tight">
+                        죄에 대해 죽고,<br class="hidden sm:inline"> 하나님에 대해 산 존재
+                    </h2>
+                    <p class="text-slate-400 text-sm md:text-base max-w-xl mx-auto lg:mx-0">
+                        "너희 지체를 불의의 무기로 죄에게 내주지 말고 오직 너희 자신을 죽은 자 가운데서 다시 살아난 자 같이 하나님께 드리며 너희 지체를 의의 무기로 하나님께 드리라."
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-2 justify-center lg:justify-start">
+                        <span class="bg-slate-800/80 border border-slate-700/50 text-slate-300 px-3 py-1 rounded-md text-xs font-medium">#죄의지배_종식</span>
+                        <span class="bg-slate-800/80 border border-slate-700/50 text-slate-300 px-3 py-1 rounded-md text-xs font-medium">#의의무기</span>
+                        <span class="bg-slate-800/80 border border-slate-700/50 text-slate-300 px-3 py-1 rounded-md text-xs font-medium">#은혜의지배</span>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 bg-slate-950/80 border border-slate-800/80 p-6 rounded-2xl glow-blue">
+                    <h3 class="text-sm font-bold text-blue-400 mb-3 flex items-center gap-2">
+                        <i data-lucide="crown" class="w-4 h-4"></i> 성경 말씀 (로마서 6:12-14)
+                    </h3>
+                    <div class="space-y-3 text-xs leading-relaxed text-slate-300">
+                        <p><strong class="text-white">12절:</strong> 그러므로 너희는 죄가 너희 죽을 몸을 지배하지 못하게 하여 몸의 사욕에 순종하지 말고</p>
+                        <p><strong class="text-white">13절:</strong> 또한 너희 지체를 불의의 무기로 죄에게 내주지 말고 오직 너희 자신을 죽은 자 가운데서 다시 살아난 자 같이 하나님께 드리며 너희 지체를 의의 무기로 하나님께 드리라</p>
+                        <p><strong class="text-white">14절:</strong> 죄가 너희를 주장하지 못하리니 이는 너희가 법 아래에 있지 아니하고 은혜 아래에 있음이라</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Throne Battle Widget (Intro) -->
+        <section class="space-y-6">
+            <div class="text-center">
+                <h3 class="text-xl md:text-2xl font-bold text-white flex items-center justify-center gap-2">
+                    <i data-lucide="swords" class="text-blue-400 w-6 h-6"></i> 우리 안의 왕좌 싸움
+                </h3>
+                <p class="text-slate-400 text-xs md:text-sm mt-1">현재 당신 마음에 누가 다스리고 있습니까? 아래 왕좌의 주인을 전환해 보세요.</p>
+            </div>
+
+            <div class="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-6 md:p-8 max-w-3xl mx-auto">
+                <!-- Toggle Switches -->
+                <div class="flex justify-center mb-8">
+                    <div class="inline-flex bg-slate-950 p-1.5 rounded-full border border-slate-800">
+                        <button onclick="toggleThrone('sin')" id="btn-sin" class="px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 bg-red-950/80 text-red-400 border border-red-900/40">
+                            <i data-lucide="skull" class="w-4 h-4"></i> 죄 (Sin)
+                        </button>
+                        <button onclick="toggleThrone('god')" id="btn-god" class="px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 text-slate-400 hover:text-white">
+                            <i data-lucide="shield-check" class="w-4 h-4"></i> 하나님 (God)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Throne Graphic Area -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <!-- Left: Graphic -->
+                    <div class="flex justify-center relative">
+                        <!-- Background glow changes based on state -->
+                        <div id="throne-glow" class="absolute w-48 h-48 bg-red-600/10 rounded-full blur-2xl transition-all duration-500"></div>
+                        <div class="relative z-10 bg-slate-950 p-8 rounded-full border border-slate-800/80 w-52 h-52 flex flex-col items-center justify-center">
+                            <!-- Visual Throne Core -->
+                            <div id="throne-icon-container" class="text-red-500 transition-transform duration-500 transform scale-110">
+                                <i data-lucide="crown" class="w-16 h-16"></i>
+                            </div>
+                            <span id="throne-label" class="mt-3 text-xs uppercase font-extrabold tracking-widest text-red-400">폐위된 왕의 속삭임</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Context Description -->
+                    <div class="space-y-4">
+                        <div class="inline-block px-2.5 py-1 rounded bg-slate-950 border border-slate-800 text-xs font-semibold text-blue-400" id="throne-badge">통치 상태: 영적 불법 점거</div>
+                        <h4 class="text-lg font-bold text-white" id="throne-title">죄가 여전히 왕좌에 앉으려 함</h4>
+                        <p class="text-slate-300 text-xs md:text-sm leading-relaxed" id="throne-desc">
+                            예수 그리스도를 통해 우리는 죄의 통치에서 해방되었습니다. 그러나 물러난 죄의 전 왕은 속임수와 욕망을 사용해 여전히 우리의 마음을 불법 통치하려 시도합니다. 허락하지 마십시오!
+                        </p>
+                        <div class="p-3.5 bg-slate-950/80 rounded-xl border border-slate-800" id="throne-action-box">
+                            <span class="text-xs font-bold text-red-400 block mb-1">경고: 불의의 도구화</span>
+                            <span class="text-slate-400 text-xs" id="throne-action-desc">사욕에 마음을 넘기면 내 몸의 에너지가 죄의 무기로 변해버립니다.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Message Grid (Point 1 & 2) -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Part 1: Sin is Not King -->
+            <div class="bg-gradient-to-tr from-slate-900 to-slate-950 border border-slate-800 p-6 rounded-2xl relative overflow-hidden group hover:border-blue-500/30 transition-all duration-300">
+                <div class="absolute top-0 right-0 p-3 bg-blue-500/10 rounded-bl-xl text-blue-400 font-black text-sm">POINT 01</div>
+                
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-2 bg-blue-500/10 rounded-lg text-blue-400">
+                        <i data-lucide="ban" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">죄는 왕이 아닙니다 (12절)</h3>
+                </div>
+
+                <p class="text-slate-300 text-xs md:text-sm leading-relaxed mb-4">
+                    바울은 죄에게 비키라고 명령하지 않고 <strong class="text-blue-400">우리에게 선택을 촉구</strong>합니다. 죄는 이미 권세를 잃은 '불법 점거자'일 뿐입니다.
+                </p>
+
+                <!-- Visual comparison list -->
+                <div class="space-y-3 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                    <div class="flex items-start gap-2.5 text-xs text-slate-400">
+                        <span class="text-red-500 mt-0.5">●</span>
+                        <div>
+                            <strong class="text-slate-200 block">죄의 교만함</strong>
+                            폐위된 옛 왕은 힘이 아니라 '우리의 허락'과 '순종'을 통로 삼아 다스립니다.
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-2.5 text-xs text-slate-400">
+                        <span class="text-blue-400 mt-0.5">●</span>
+                        <div>
+                            <strong class="text-slate-200 block">우리의 신학적 현실</strong>
+                            이미 예수 안에서 죄에서 완전히 해방되었습니다. (죄의 법적 지배력 상실)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 2: Present Yourself to God -->
+            <div class="bg-gradient-to-tl from-slate-900 to-slate-950 border border-slate-800 p-6 rounded-2xl relative overflow-hidden group hover:border-cyan-500/30 transition-all duration-300">
+                <div class="absolute top-0 right-0 p-3 bg-cyan-500/10 rounded-bl-xl text-cyan-400 font-black text-sm">POINT 02</div>
+                
+                <div class="flex items-center gap-3 mb-4">
+                    <div class="p-2 bg-cyan-500/10 rounded-lg text-cyan-400">
+                        <i data-lucide="hand-metal" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">하나님께 드리십시오 (13절)</h3>
+                </div>
+
+                <p class="text-slate-300 text-xs md:text-sm leading-relaxed mb-4">
+                    단순히 "죄를 참자"가 아닌 적극적 대안입니다. 군사가 무기를 왕에게 내어주듯 <strong class="text-cyan-400">우리의 신체와 삶을 의의 무기</strong>로 헌신해 내어 드려야 합니다.
+                </p>
+
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="bg-red-950/20 border border-red-900/30 p-2.5 rounded-lg text-center">
+                        <span class="block text-[10px] uppercase text-red-400 font-bold">죄에게 드리면</span>
+                        <span class="text-xs text-slate-300 font-semibold">불의의 무기 (통과)</span>
+                    </div>
+                    <div class="bg-cyan-950/20 border border-cyan-900/30 p-2.5 rounded-lg text-center">
+                        <span class="block text-[10px] uppercase text-cyan-400 font-bold">하나님께 드리면</span>
+                        <span class="text-xs text-slate-300 font-semibold">의의 무기 (도구)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Body-Part Dedication Map (Highly Visual) -->
+        <section class="space-y-6">
+            <div class="text-center">
+                <span class="px-3 py-1 text-xs font-bold bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">실천적 헌신 도구</span>
+                <h3 class="text-xl md:text-2xl font-bold text-white mt-2">나의 지체를 어떤 무기로 쓸 것인가?</h3>
+                <p class="text-slate-400 text-xs md:text-sm mt-1">지체(몸의 부위)를 클릭하면 어떻게 '의의 무기'로 훈련되는지 시각적으로 나옵니다.</p>
+            </div>
+
+            <!-- Body Map Interactive Deck -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 bg-slate-900/40 border border-slate-800/80 p-6 rounded-2xl items-stretch">
+                <!-- Left: List of Body Parts -->
+                <div class="lg:col-span-5 flex flex-col gap-2 justify-center">
+                    <button onclick="selectPart('mind')" id="part-mind" class="flex items-center justify-between p-3 rounded-xl border bg-blue-600 border-blue-500 text-white transition-all duration-300 text-left">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="brain" class="w-5 h-5"></i>
+                            <span class="text-sm font-bold">마음 (Mind)</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                    
+                    <button onclick="selectPart('eyes')" id="part-eyes" class="flex items-center justify-between p-3 rounded-xl border bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300 transition-all duration-300 text-left">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="eye" class="w-5 h-5"></i>
+                            <span class="text-sm font-bold">눈 (Eyes)</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+
+                    <button onclick="selectPart('mouth')" id="part-mouth" class="flex items-center justify-between p-3 rounded-xl border bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300 transition-all duration-300 text-left">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="message-square-quote" class="w-5 h-5"></i>
+                            <span class="text-sm font-bold">입 (Mouth)</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+
+                    <button onclick="selectPart('hands')" id="part-hands" class="flex items-center justify-between p-3 rounded-xl border bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300 transition-all duration-300 text-left">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="activity" class="w-5 h-5"></i>
+                            <span class="text-sm font-bold">손 (Hands)</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+
+                    <button onclick="selectPart('feet')" id="part-feet" class="flex items-center justify-between p-3 rounded-xl border bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300 transition-all duration-300 text-left">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="footprints" class="w-5 h-5"></i>
+                            <span class="text-sm font-bold">발 (Feet)</span>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+
+                <!-- Right: Visualized Transformation Card -->
+                <div class="lg:col-span-7 bg-slate-950 p-6 rounded-xl border border-slate-800 flex flex-col justify-between space-y-4">
+                    <div class="space-y-3">
+                        <div class="flex items-center gap-2">
+                            <span id="target-icon" class="text-blue-400 p-2 bg-blue-500/10 rounded-lg">
+                                <i data-lucide="brain" class="w-6 h-6"></i>
+                            </span>
+                            <div>
+                                <h4 id="target-title" class="text-base font-bold text-white">마음 (Mind)</h4>
+                                <span class="text-[10px] text-blue-400 font-semibold uppercase tracking-wider">Spiritual Command Center</span>
+                            </div>
+                        </div>
+                        <hr class="border-slate-800">
+                    </div>
+
+                    <!-- Compare State Row -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-2">
+                        <!-- Bad Use -->
+                        <div class="p-4 rounded-xl bg-red-950/15 border border-red-900/30 space-y-1">
+                            <span class="text-[10px] font-bold text-red-400 flex items-center gap-1">
+                                <i data-lucide="alert-circle" class="w-3.5 h-3.5"></i> 불의의 무기 (죄의 지배)
+                            </span>
+                            <p id="target-bad" class="text-xs text-slate-300 leading-relaxed">
+                                늘 죄를 지을 계산을 하거나 교만, 상처, 원망을 품고 있는 상태.
+                            </p>
+                        </div>
+                        <!-- Good Use -->
+                        <div class="p-4 rounded-xl bg-blue-950/15 border border-blue-900/30 space-y-1">
+                            <span class="text-[10px] font-bold text-blue-400 flex items-center gap-1">
+                                <i data-lucide="shield" class="w-3.5 h-3.5"></i> 의의 무기 (하나님 동행)
+                            </span>
+                            <p id="target-good" class="text-xs text-slate-300 leading-relaxed">
+                                하나님의 말씀을 묵상하고, 선한 뜻을 사모하며, 복음의 은혜를 상기하는 중심.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Highlight Insight Block -->
+                    <div class="p-3 bg-slate-900 rounded-lg border border-slate-800 text-xs text-slate-400 flex items-center gap-2.5">
+                        <i data-lucide="info" class="w-4 h-4 text-blue-400 shrink-0"></i>
+                        <span id="target-insight">죄를 이기려고 내 마음에 집중하는 것이 아니라, 하나님과 그분의 영광에 내 생각을 넘기는 것이 헌신의 지혜입니다.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Part 3: Under Law vs Under Grace Diagram -->
+        <section class="space-y-6">
+            <div class="text-center">
+                <span class="px-3 py-1 text-xs font-bold bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">신앙의 패러다임 변화</span>
+                <h3 class="text-xl md:text-2xl font-bold text-white mt-2">우리가 서 있는 토대: 법에서 은혜로</h3>
+                <p class="text-slate-400 text-xs md:text-sm mt-1">왜 우리는 죄에게 지배당하지 않습니까? 우리가 법이 아닌 은혜의 지배를 받기 때문입니다.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+                <!-- Law Side -->
+                <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center gap-2.5 mb-4">
+                            <span class="p-2 bg-slate-800 text-slate-400 rounded-lg">
+                                <i data-lucide="scale" class="w-5 h-5"></i>
+                            </span>
+                            <h4 class="text-base font-bold text-slate-300">율법 아래 있음 (Under the Law)</h4>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                            율법은 죄가 무엇인지 선명하게 고발하고 정의하지만, 우리에게 그것을 헤쳐 나갈 '능력'을 결코 제공하지 못합니다. 인간의 종교적 힘에 의존하게 합니다.
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-2.5">
+                        <div class="flex items-center gap-2 text-xs text-red-400 bg-red-950/20 p-2 rounded-lg border border-red-900/20">
+                            <i data-lucide="x" class="w-4 h-4"></i> 결과: 정죄함, 패배의 악순환, 형식적 신앙
+                        </div>
+                        <div class="text-[11px] text-slate-400">
+                            * 로마서 7:8 - "율법을 통하여 죄의 기회가 탐심을 일으킴"
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grace Side -->
+                <div class="bg-gradient-to-br from-blue-950/40 to-slate-950 border border-blue-500/30 p-6 rounded-2xl flex flex-col justify-between glow-blue">
+                    <div>
+                        <div class="flex items-center gap-2.5 mb-4">
+                            <span class="p-2 bg-blue-500/10 text-blue-400 rounded-lg">
+                                <i data-lucide="sparkles" class="w-5 h-5"></i>
+                            </span>
+                            <h4 class="text-base font-bold text-blue-300">은혜 아래 있음 (Under Grace)</h4>
+                        </div>
+                        <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                            은혜는 단지 죄에 대한 무조건적인 ‘용서’에 머무르지 않습니다. 은혜는 곧 <strong class="text-blue-400">우리를 움직여 하나님을 기쁘시게 하는 강력한 하나님의 능력이자 통치</strong>입니다.
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-2.5">
+                        <div class="flex items-center gap-2 text-xs text-blue-400 bg-blue-950/40 p-2 rounded-lg border border-blue-500/30">
+                            <i data-lucide="check" class="w-4 h-4"></i> 결과: 은혜의 성화 통치, 기쁨 가득한 드림, 승리
+                        </div>
+                        <div class="text-[11px] text-blue-400">
+                            * 로마서 6:14 - "죄가 너희를 주장하지 못하리니"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GitHub Markdown Readme Generator -->
+        <section class="bg-slate-950 border border-slate-800/80 rounded-2xl p-6 md:p-8 space-y-4">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div class="space-y-1">
+                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i data-lucide="github" class="w-5 h-5 text-slate-300"></i> 깃허브 리드미(README)용 텍스트 복사
+                    </h3>
+                    <p class="text-xs text-slate-400">이 설교의 핵심 정리를 당신의 깃허브 저장소나 블로그에 바로 마크다운으로 붙여넣어 보세요.</p>
+                </div>
+                <button onclick="copyMarkdownText()" class="w-full sm:w-auto px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 active:scale-95 transition-all">
+                    <i data-lucide="copy" class="w-4 h-4"></i> 마크다운 복사하기
+                </button>
+            </div>
+
+            <!-- Pre-box for previewing the Markdown content -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 overflow-x-auto max-h-60 text-slate-400 text-xs font-mono select-all">
+# ⛪️ 주일예배 설교 핵심 정리 (2026. 05. 31)
+
+## 📌 하나님에 대해 산 사람
+* **성경 본문:** 로마서 6:12–14 (개역개정)
+* **핵심 질문:** "오늘 나를 다스리는 주인은 죄인가, 하나님이신가?"
+
+---
+
+### 1️⃣ 죄는 합법적인 왕이 아닙니다 (v.12)
+* 그리스도 예수의 연합을 통하여 우리는 죄의 권세로부터 완전히 법적 해방되었습니다.
+* 죄는 이제 '폐위된 전 왕'에 불과합니다. 단지 속임수로 우리 마음을 조종할 뿐입니다.
+* 문제는 죄의 잔재가 아닌 **"우리가 그것에 권리를 넘겨줄 것인가"**의 선택입니다.
+
+### 2️⃣ 나를 적극적으로 하나님께 드리십시오 (v.13)
+* **드릴 때:** 우리의 손과 발, 눈과 마음이 불의의 도구(죄)가 아닌 **의의 무기(하나님)**가 됩니다.
+* **집중의 전환:** 죄에 싸우는 데 몰두하기보다, 내 시선을 전능하신 참 왕에게 넘길 때 죄는 설 자리를 잃습니다.
+
+### 3️⃣ 은혜는 거룩을 만드는 강력한 통치력입니다 (v.14)
+* 율법은 죄를 폭로할 뿐 이길 힘을 주지 못합니다.
+* 그러나 우리는 **'은혜 아래(Under Grace)'** 거하며 성령의 능력을 공급받아 거뜬히 성화의 삶을 살 수 있습니다.
+
+---
+🙋‍♂️ **실천 다짐:** 오늘 나의 지체 중 "마음, 눈, 입, 손, 발"을 오직 하나님의 공의와 영광을 가꾸는 '의의 무기'로 올려 드리겠습니다.
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Toast Popup Notification for copying -->
+    <div id="toast" class="fixed bottom-6 right-6 bg-blue-600 text-white px-5 py-3.5 rounded-xl shadow-xl border border-blue-400 flex items-center gap-3 transform translate-y-20 opacity-0 transition-all duration-500 pointer-events-none z-50">
+        <i data-lucide="circle-check" class="w-5 h-5 text-cyan-200"></i>
+        <div class="text-xs">
+            <p class="font-extrabold">복사 완료!</p>
+            <p class="text-slate-200 text-[11px] mt-0.5">클립보드에 마크다운이 저장되었습니다.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-4 space-y-2">
+            <p>© 2026 주일예배 설교 요약 인포그래픽 보드. All Rights Reserved.</p>
+            <p class="text-[11px]">성경 문맥의 영적 가르침에 초점을 맞추어 디자인되었습니다.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Init Icons
+        lucide.createIcons();
+
+        // Data objects for body-part map interaction
+        const bodyPartData = {
+            mind: {
+                title: "마음 (Mind)",
+                bad: "늘 죄를 지을 계산을 하거나 교만, 상처, 원망을 품고 있는 상태.",
+                good: "하나님의 말씀을 묵상하고, 선한 뜻을 사모하며, 복음의 은혜를 상기하는 중심.",
+                insight: "죄를 이기려고 내 마음에 집중하는 것이 아니라, 하나님과 그분의 영광에 내 생각을 넘기는 것이 헌신의 지혜입니다.",
+                icon: "brain"
+            },
+            eyes: {
+                title: "눈 (Eyes)",
+                bad: "음란하고 정욕적인 대상, 다른 이들을 시샘 어린 시선으로 깎아내려 비교하는 모습.",
+                good: "성경 말씀을 탐독하고, 이웃을 주님의 긍휼한 사랑으로 응시하며 아름다운 영역을 관찰함.",
+                insight: "우리가 무엇을 바라보느냐가 삶의 가치를 결정합니다. 시선을 참 왕이신 하나님께 고정하십시오.",
+                icon: "eye"
+            },
+            mouth: {
+                title: "입 (Mouth)",
+                bad: "타인을 헐뜯는 험담, 상처 주는 차가운 말, 거짓되거나 위선적인 대답.",
+                good: "하나님의 은혜를 입증하는 감사, 영혼을 되살리는 위로와 기쁨의 찬양, 진리의 선포.",
+                insight: "죽고 사는 권세가 혀에 있습니다. 우리의 입술이 사람을 살리고 소망을 전하는 의의 통로가 되게 하세요.",
+                icon: "message-square-quote"
+            },
+            hands: {
+                title: "손 (Hands)",
+                bad: "도와주기를 꺼리는 인색한 손길, 타인에게 해를 끼치거나 나만을 위해 부단히 움켜쥐는 행동.",
+                good: "약자를 향한 따뜻한 섬김, 주님의 복음과 정의를 위해 부지런히 실행하는 실천.",
+                insight: "예수 그리스도가 십자가에서 펼치셨던 손처럼, 사랑을 기꺼이 베푸는 은약의 손이 됩시다.",
+                icon: "activity"
+            },
+            feet: {
+                title: "발 (Feet)",
+                bad: "악의를 가지고 불평을 쏟거나 타협의 길로 나아가는 이기적인 발걸음.",
+                good: "화평의 복음을 싣고 기쁘게 달려가는 현장 지향적 헌신의 발자취.",
+                insight: "은혜를 입은 이의 가장 아름다운 신체적 증거는 성도를 돕고 사랑의 자리에 서는 발걸음입니다.",
+                icon: "footprints"
+            }
+        };
+
+        // Function: Select Body Part
+        function selectPart(partId) {
+            // Remove active classes from all buttons
+            const buttons = ['mind', 'eyes', 'mouth', 'hands', 'feet'];
+            buttons.forEach(b => {
+                const btn = document.getElementById(`part-${b}`);
+                btn.className = "flex items-center justify-between p-3 rounded-xl border bg-slate-950 border-slate-800 hover:border-slate-700 text-slate-300 transition-all duration-300 text-left w-full";
+            });
+
+            // Set active class on clicked button
+            const selectedBtn = document.getElementById(`part-${partId}`);
+            selectedBtn.className = "flex items-center justify-between p-3 rounded-xl border bg-blue-600 border-blue-500 text-white transition-all duration-300 text-left w-full";
+
+            // Update content details
+            const data = bodyPartData[partId];
+            document.getElementById('target-title').innerText = data.title;
+            document.getElementById('target-bad').innerText = data.bad;
+            document.getElementById('target-good').innerText = data.good;
+            document.getElementById('target-insight').innerText = data.insight;
+            
+            // Re-render target icon dynamically
+            const iconContainer = document.getElementById('target-icon');
+            iconContainer.innerHTML = `<i data-lucide="${data.icon}" class="w-6 h-6 text-blue-400"></i>`;
+            lucide.createIcons();
+        }
+
+        // Function: Toggle Throne owner
+        function toggleThrone(state) {
+            const btnSin = document.getElementById('btn-sin');
+            const btnGod = document.getElementById('btn-god');
+            const glow = document.getElementById('throne-glow');
+            const iconContainer = document.getElementById('throne-icon-container');
+            const label = document.getElementById('throne-label');
+            const badge = document.getElementById('throne-badge');
+            const title = document.getElementById('throne-title');
+            const desc = document.getElementById('throne-desc');
+            const actionBox = document.getElementById('throne-action-box');
+            const actionDesc = document.getElementById('throne-action-desc');
+
+            if (state === 'sin') {
+                // UI styles
+                btnSin.className = "px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 bg-red-950/80 text-red-400 border border-red-900/40";
+                btnGod.className = "px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 text-slate-400 hover:text-white";
+                
+                glow.className = "absolute w-48 h-48 bg-red-600/10 rounded-full blur-2xl transition-all duration-500";
+                iconContainer.className = "text-red-500 transition-transform duration-500 transform scale-110";
+                iconContainer.innerHTML = `<i data-lucide="crown" class="w-16 h-16"></i>`;
+                
+                label.innerText = "폐위된 왕의 속삭임";
+                label.className = "mt-3 text-xs uppercase font-extrabold tracking-widest text-red-400";
+                badge.innerText = "통치 상태: 영적 불법 점거";
+                badge.className = "inline-block px-2.5 py-1 rounded bg-slate-950 border border-slate-800 text-xs font-semibold text-red-400";
+                
+                title.innerText = "죄가 여전히 왕좌에 앉으려 함";
+                desc.innerText = "예수 그리스도를 통해 우리는 죄의 통치에서 이미 영구적으로 해방되었습니다. 그러나 물러난 죄의 전 왕은 교활한 속임수와 육적 욕망을 동원해 여전히 우리의 마음을 불법 점거하려 합니다. 불법 침입을 절대 허락하지 마십시오!";
+                
+                actionBox.className = "p-3.5 bg-slate-950/80 rounded-xl border border-red-900/20";
+                actionBox.innerHTML = `
+                    <span class="text-xs font-bold text-red-400 block mb-1">경고: 불의의 도구화</span>
+                    <span class="text-slate-400 text-xs">몸의 사사로운 욕심에 순종하는 순간, 나의 시간과 능력이 하나님에 대항하는 불의의 무기로 변해버립니다.</span>
+                `;
+            } else {
+                // UI styles
+                btnSin.className = "px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 text-slate-400 hover:text-white";
+                btnGod.className = "px-6 py-2.5 rounded-full text-xs font-bold flex items-center gap-2 transition-all duration-300 bg-blue-600 text-white border border-blue-500";
+                
+                glow.className = "absolute w-48 h-48 bg-blue-500/20 rounded-full blur-2xl transition-all duration-500";
+                iconContainer.className = "text-cyan-400 transition-transform duration-500 transform scale-125";
+                iconContainer.innerHTML = `<i data-lucide="shield-check" class="w-16 h-16"></i>`;
+                
+                label.innerText = "영원한 평화의 참 왕";
+                label.className = "mt-3 text-xs uppercase font-extrabold tracking-widest text-cyan-400";
+                badge.innerText = "통치 상태: 온전한 평화와 의";
+                badge.className = "inline-block px-2.5 py-1 rounded bg-slate-950 border border-slate-800 text-xs font-semibold text-cyan-400";
+                
+                title.innerText = "하나님을 왕으로 받듦";
+                desc.innerText = "자신을 죽은 자 가운데서 다시 살아난 자처럼 하나님께 온전히 올려드리십시오. 그리스도의 부활 생명이 나와 함께하기에, 참 왕이신 하나님의 온화하고 강인한 사랑의 통치 아래에서 비로소 참 평안을 맛봅니다.";
+                
+                actionBox.className = "p-3.5 bg-slate-950/80 rounded-xl border border-blue-900/30";
+                actionBox.innerHTML = `
+                    <span class="text-xs font-bold text-cyan-400 block mb-1">선포: 의의 무기로 드려짐</span>
+                    <span class="text-slate-400 text-xs">내 지체를 하나님의 손에 맡겨 드릴 때, 은혜는 우리의 행동과 태도를 세상을 살려내는 의로운 도구로 사용하십니다.</span>
+                `;
+            }
+            lucide.createIcons();
+        }
+
+        // Function: Copy Markdown Text using standard text extraction & backup mechanism
+        function copyMarkdownText() {
+            const markdownString = `# ⛪️ 주일예배 설교 핵심 정리 (2026. 05. 31)
+
+## 📌 하나님에 대해 산 사람
+* **성경 본문:** 로마서 6:12–14 (개역개정)
+* **핵심 질문:** "오늘 나를 다스리는 주인은 죄인가, 하나님이신가?"
+
+---
+
+### 1️⃣ 죄는 합법적인 왕이 아닙니다 (v.12)
+* 그리스도 예수의 연합을 통하여 우리는 죄의 권세로부터 완전히 법적 해방되었습니다.
+* 죄는 이제 '폐위된 전 왕'에 불과합니다. 단지 속임수로 우리 마음을 조종할 뿐입니다.
+* 문제는 죄의 잔재가 아닌 **"우리가 그것에 권리를 넘겨줄 것인가"**의 선택입니다.
+
+### 2️⃣ 나를 적극적으로 하나님께 드리십시오 (v.13)
+* **드릴 때:** 우리의 손과 발, 눈과 마음이 불의의 도구(죄)가 아닌 **의의 무기(하나님)**가 됩니다.
+* **집중의 전환:** 죄에 싸우는 데 몰두하기보다, 내 시선을 전능하신 참 왕에게 넘길 때 죄는 설 자리를 잃습니다.
+
+### 3️⃣ 은혜는 거룩을 만드는 강력한 통치력입니다 (v.14)
+* 율법은 죄를 폭로할 뿐 이길 힘을 주지 못합니다.
+* 그러나 우리는 **'은혜 아래(Under Grace)'** 거하며 성령의 능력을 공급받아 거뜬히 성화의 삶을 살 수 있습니다.
+
+---
+🙋‍♂️ **실천 다짐:** 오늘 나의 지체 중 "마음, 눈, 입, 손, 발"을 오직 하나님의 공의와 영광을 가꾸는 '의의 무기'로 올려 드리겠습니다.`;
+
+            // Create temporary textarea
+            const tempTextArea = document.createElement("textarea");
+            tempTextArea.value = markdownString;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+            
+            try {
+                // Copy to clipboard
+                document.execCommand('copy');
+                
+                // Show Toast Notification
+                const toast = document.getElementById('toast');
+                toast.style.opacity = '1';
+                toast.style.transform = 'translateY(0)';
+                toast.style.pointerEvents = 'auto';
+
+                // Fade out after 3 seconds
+                setTimeout(() => {
+                    toast.style.opacity = '0';
+                    toast.style.transform = 'translateY(20px)';
+                    toast.style.pointerEvents = 'none';
+                }, 3000);
+            } catch (err) {
+                console.error('클립보드 복사 실패:', err);
+            } finally {
+                document.body.removeChild(tempTextArea);
+            }
+        }
+    </script>
+</body>
+</html>
